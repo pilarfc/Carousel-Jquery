@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel con JS</title>
+	 <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+   
+   <header>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Carousel Jquery - Ejercicio Guiado</a>
+        </div>
+      </nav>
+   </header>
+    
+    <!--	Imagenes   -->
+    <section class="container">
+	<div class="row">
+	   <div class="col s12">
+		<div data-slide="0" class="carousel-content active carousel-completo">
+			<img src="img/img-1.jpg" alt="Imagen 1">
+		</div>
+		<div data-slide="1" class="carousel-content carousel-completo">
+			<img src="img/img-2.jpg" alt="Imagen 2">
+		</div>
+		<div data-slide="2" class="carousel-content carousel-completo">
+			<img src="img/img-3.jpg" alt="Imagen 3">
+		</div>
+		<div data-slide="3" class="carousel-content carousel-completo">
+			<img src="img/img-4.jpg" alt="Imagen 4">
+		</div>
+      </div>
+	</div>
+	
+    <!--	Botones   -->
+	<div class="controls botones">
+            <a href="#" class="previous">&#60;</a>
+            <button type="button" data-target="0" class="control btn waves-effect white grey-text darken-text-2">1</button>
+            <button type="button" data-target="1" class="control btn waves-effect white grey-text darken-text-2">2</button>
+            <button type="button" data-target="2" class="control btn waves-effect white grey-text darken-text-2">3</button>
+            <button type="button" data-target="3" class="control btn waves-effect white grey-text darken-text-2">4</button>
+            <a href="#" class="next">&#62;</a>
+      </div>
+	</section>
+	
+	<script src="./js/app.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

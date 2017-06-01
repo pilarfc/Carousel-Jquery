@@ -1,0 +1,16 @@
+.carousel-content {
+	display: none;
+}
+
+.carousel-content.active {
+	display: block;
+}
+
+.carousel-completo {
+    padding-left: 23%;
+    margin-top: 2%;
+}
+
+.botones {
+    padding-left: 33% !important;
+}
