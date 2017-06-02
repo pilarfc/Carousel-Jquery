@@ -1,2 +1,4 @@
 # carousel-demo
-Carousel with HTML, CSS and JS
+Carousel creado con HTML5 y CSS3 utilizando como framework Materialize.
+
+En este proyecto comenzamos a practicar y a trasladar código Javascript puro a jQuery.
